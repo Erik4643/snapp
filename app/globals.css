@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+
+@layer components {
+    .header-1 {
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 78.18px;
+    }
+
+    .header-2 {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52.12px;
+    }
+
+    .header-3 {
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44.3px;
+    }
+
+    .header-4 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 39.09px;
+    }
+
+    .text-1 {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 52.12px;
+    }
+
+    .text-2 {
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 49.51px;
+    }
+
+    .text-3 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 31.27px;
+    }
+
+    .text-4 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .text-5 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .text-6 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .text-7 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20.85px;
+    }
+
+    .text-8 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20.85px;
+    }
+
+    .subscribe-gradient {
+        background-color: #00a2ff;
+        background-image: linear-gradient(to right, #00a2ff 0%, #00e0e4 100%);
+    }
+
+    .input-gradient {
+        background: #fff;
+        border: 1px solid #00a2ff; 
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        padding: 10px 12px 10px 50px;
+        color: #333;
+    }
+
+    .input-gradient:focus {
+        outline: none;
+        border-color: #00a2ff;
+    }
+}
